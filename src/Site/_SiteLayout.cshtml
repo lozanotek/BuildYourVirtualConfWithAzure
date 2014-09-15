@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>yourConf - The Best Virtual Conference</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="yourConf - The Best Virtual Conference">
+        <meta name="author" content="lozanotek, inc.">
+        <meta charset="utf-8" />
+        <meta name="Distribution" content="Global" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/css/player.css" type="text/css" media="screen" />
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="header">
+            <a href="/"><h1>yourConf</h1></a>
+        </div>
+        @RenderBody()
+        <div class="footer">
+        </div>
+        @RenderSection("scripts", required: false)
+        <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+    </body>
+</html>
